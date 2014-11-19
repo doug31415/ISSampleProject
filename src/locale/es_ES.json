@@ -1,0 +1,7 @@
+{
+  "HOME_GREETING": "Hola, que tal!",
+  "HOME_SUBTITLE": "Siempre un placer andamiar sus applicaciones, {{'SALUTATION' | translate}} {{userName}}.",
+  "AMERICAN_BUTTON": "Americano",
+  "SPANISH_BUTTON": "Espanol",
+  "SALUTATION": "Sr."
+}
