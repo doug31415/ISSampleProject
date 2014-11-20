@@ -56,14 +56,39 @@
     <!-- endbuild -->
 
     <!-- build:js({.tmp,src}) scripts/app.js -->
-    <script src="app/index.js"></script>
 
+    <!-------------------------------->
+    <!-- START custom config loader -->
+    <!-------------------------------->
+    <script src="app/shared/configuration/IscCustomConfigService.js"></script>
+    <!-------------------------------->
+    <!-- END custom config loader ---->
+    <!-------------------------------->
+
+    <!--------------------------->
+    <!-- START custom includes -->
+    <!--------------------------->
+    <!-- library module -->
+    <script src="app/library/iscPartner.library.js"></script>
+    <script src="app/library/controllers/IscpLibraryController.js"></script>
+    <script src="app/library/models/IscpLibraryModel.js"></script>
+    <!--------------------------->
+    <!-- END custom includes ---->
+    <!--------------------------->
+
+    <!----------------------------->
+    <!-- START main app includes -->
+    <!----------------------------->
+    <script src="app/index.js"></script>
     <script src="app/home/HomeController.js"></script>
     <script src="app/home/helpers/RankHelper.js"></script>
     <script src="app/home/models/HomeModel.js"></script>
     <script src="app/home/api/HomeDataApi.js"></script>
-
     <script src="components/navbar/navbar.controller.js"></script>
+    <!----------------------------->
+    <!-- END main app includes ---->
+    <!----------------------------->
+
 
     <!-- inject:partials -->
     <!-- angular templates will be automaticaly converted in js and inserted here -->
