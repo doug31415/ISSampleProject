@@ -1,7 +1,15 @@
 {
+  "AMERICAN_BUTTON": "Ingles",
+  "SALUTATION": "Sr.",
+
+  "HOME_TAB": "Inicio",
+  "LIBRARY_TAB": "Bibleoteca",
+  "MESSAGES_TAB": "Mensajes",
+
   "HOME_GREETING": "Hola, que tal!",
   "HOME_SUBTITLE": "Siempre un placer andamiar sus applicaciones, {{'SALUTATION' | translate}} {{userName}}.",
-  "AMERICAN_BUTTON": "Americano",
-  "SPANISH_BUTTON": "Espanol",
-  "SALUTATION": "Sr."
+
+  "ISCP_LIBRARY_TITLE": "Bibleoteca",
+  "ISCP_LIBRARY_SUBTITLE": "Una Bibleoteca por {{'SALUTATION' | translate}} {{userName}}."
+
 }

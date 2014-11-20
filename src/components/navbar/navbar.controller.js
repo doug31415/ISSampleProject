@@ -1,6 +1,21 @@
-'use strict';
+(function(){
+  'use strict';
 
-angular.module('issampleProject')
-  .controller('NavbarCtrl', function ($scope) {
-    $scope.date = new Date();
-  });
+  NavbarCtrl.$inject = [ '$log', 'IscCustomConfigService' ];
+
+  function NavbarCtrl( $log, IscCustomConfigService ){
+    $log.debug( 'NavbarCtrl LOADED');
+
+    var self = this;
+
+    self.date = new Date();
+    self.tabs = IscCustomConfigService.getMainNavConfig();
+
+  }
+
+  angular.module('issampleProject')
+      .controller( 'NavbarCtrl', NavbarCtrl );
+
+})();
+
+

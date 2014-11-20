@@ -87,7 +87,7 @@
         $timeout( function(){
           deferred.resolve( mockData );
 
-        }, 500);
+        }, 10);
 
         return deferred.promise;
       }

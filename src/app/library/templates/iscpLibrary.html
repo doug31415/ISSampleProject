@@ -1,0 +1,22 @@
+<div class="container">
+
+  <div ng-include="'components/navbar/navbar.html'"></div>
+
+  <div class="jumbotron text-center">
+    <h1>{{ 'ISCP_LIBRARY_TITLE' | translate }}</h1>
+
+    <p class="lead">
+      {{"ISCP_LIBRARY_SUBTITLE" | translate:iscpLibraryCtrl.translationParams}}
+    </p>
+
+    <p><a class="btn btn-lg btn-success"
+          ng-click="iscpLibraryCtrl.translate( 'en_US' )"
+          translate="AMERICAN_BUTTON" ></a></p>
+
+    <p><a class="btn btn-lg btn-success"
+          ng-click="iscpLibraryCtrl.translate( 'es_ES' )">{{ 'SPANISH_BUTTON' | translate }}</a></p>
+  </div>
+
+  <hr>
+
+</div>

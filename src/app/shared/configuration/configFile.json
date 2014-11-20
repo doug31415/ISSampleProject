@@ -1,0 +1,24 @@
+{
+  "homePage": {
+    "mainNav": [
+      {
+        "id": "home",
+        "translationKey": "HOME_TAB",
+        "url": "#/home",
+        "exclude": false
+      },
+      {
+        "id": "library",
+        "translationKey": "LIBRARY_TAB",
+        "url": "#/iscpLibrary",
+        "exclude": false
+      },
+      {
+        "id": "messages",
+        "translationKey": "MESSAGES_TAB",
+        "url": "#/messages",
+        "exclude": false
+      }
+    ]
+  }
+}

@@ -1,7 +1,16 @@
 {
-  "HOME_GREETING": "Howdie hi!",
-  "HOME_SUBTITLE": "Always a pleasure scaffolding your apps, {{'SALUTATION' | translate}} {{userName}}.",
   "AMERICAN_BUTTON": "American",
   "SPANISH_BUTTON": "Spanish",
-  "SALUTATION": "Mr."
+  "SALUTATION": "Mr.",
+
+  "HOME_TAB": "Home",
+  "LIBRARY_TAB": "Library",
+  "MESSAGES_TAB": "Messages",
+
+  "HOME_GREETING": "Howdie hi!",
+  "HOME_SUBTITLE": "Always a pleasure scaffolding your apps, {{'SALUTATION' | translate}} {{userName}}.",
+
+  "ISCP_LIBRARY_TITLE": "Library",
+  "ISCP_LIBRARY_SUBTITLE": "A library for {{'SALUTATION' | translate}} {{userName}}."
+
 }
